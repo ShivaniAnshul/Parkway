@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.parkway.TestExecution">
+        <methods>
+          <include name="verify_RequestAssistance_CBO"/>
+          <include name="verify_NonFinal"/>
+          <include name="setextent"/>
+          <include name="verify_login"/>
+          <include name="endReport"/>
+          <include name="verify_outstanding"/>
+          <include name="verify_DoctorFeememo"/>
+          <include name="beforemethod"/>
+          <include name="verify_AdminFeeRebate"/>
+          <include name="verify_ClinicalMatters"/>
+          <include name="verify_final"/>
+          <include name="verify_fullypaid"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.parkway.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
